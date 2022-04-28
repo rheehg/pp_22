@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/*webfonts*/
+@font-face{
+font-family:"HyundaiSansHead";
+font-style:normal;
+font-weight:300;
+src:url("../fonts/HyundaiSansHeadKRLight.woff2") format("woff2"),
+    url("../fonts/HyundaiSansHeadKRLight.woff") format("woff"),
+    url("../fonts/HyundaiSansHeadKRLight.ttf") format("ttf"),
+    url("../fonts/HyundaiSansHeadKRLight.eot") format("eot");
+}
+@font-face{
+font-family:"HyundaiSansHead";
+font-style:normal;
+font-weight:400;
+src:url("../fonts/HyundaiSansHeadKRRegular.woff2") format("woff2"),
+    url("../fonts/HyundaiSansHeadKRRegular.woff") format("woff"),
+    url("../fonts/HyundaiSansHeadKRRegular.ttf") format("ttf"),
+    url("../fonts/HyundaiSansHeadKRRegular.eot") format("eot");
+}
+@font-face{
+font-family:"HyundaiSansHead";
+font-style:normal;
+font-weight:500;
+src:url("../fonts/HyundaiSansHeadKRMedium.woff2") format("woff2"),
+    url("../fonts/HyundaiSansHeadKRMedium.woff") format("woff"),
+    url("../fonts/HyundaiSansHeadKRMedium.ttf") format("ttf"),
+    url("../fonts/HyundaiSansHeadKRMedium.eot") format("eot");
+}
+@font-face{
+font-family:"HyundaiSansHead";
+font-style:normal;
+font-weight:600;
+src:url("../fonts/HyundaiSansHeadKRBold.woff2") format("woff2"),
+    url("../fonts/HyundaiSansHeadKRBold.woff") format("woff"),
+    url("../fonts/HyundaiSansHeadKRBold.ttf") format("ttf"),
+    url("../fonts/HyundaiSansHeadKRBold.eot") format("eot");
+}
+
+/* base */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,
+del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,select,button,
+ul,li,fieldset,form,label,legend,caption,tbody,tfoot,thead,tr,textarea {margin:0;padding:0;}
+fieldset,img {border:0 none}
+dl,ul,ol,menu,li {list-style:none}
+blockquote,q {quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after {content:"";content:none;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;margin:0;padding:0;}
+img {-ms-interpolation-mode:bicubic !important;}
+a,input,select,textarea,button,img,label {vertical-align:middle;}
+input {margin:0;padding:0;}
+table,th,td {margin:0;padding:0;border-spacing:0px;border-collapse:collapse;}
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
+legend,caption {height:0;text-indent:-9999px;overflow:hidden;font-size:0;}
+input,button {border-radius:0;}
+button,input[type="button"],input[type="submit"] {-webkit-appearance:none;}
+select {border-radius:0;}
+
+html{overflow-y:scroll;}
+body {
+    font-family: "HyundaiSansHead", "Malgun Gothic", "맑은 고딕", sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #333;
+    letter-spacing: 0;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html,body {width: 100%; min-width: 1280px;}
+a {text-decoration:none;color:#222222;}
+a:hover {text-decoration:none;}
+
+.fl {float: left;}
+.fr {float: right;}
+.clear {clear:both;display:block;float:none;font-size:0 !important;height:0;line-height:0 !important;margin:0 !important;overflow:hidden;padding:0 !important;width:100%;}
+.clearfix {*zoom:1;}
+.clearfix:after {content:"";display:block;clear:both;font-size:0;}
+
+/* margin */
+
+/* padding */
+
+/* align */
+
+/* color */
+.c_point {color: #e63312;}
